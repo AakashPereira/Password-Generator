@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="/assets/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random Password Generator</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Generate a <span class="highlight highlight-heading">random password</span></h1>
+            <p>Never use an insecure password again.</p>
+            <div class="form-field">
+                <label for="maxChar">Password Length</label>
+                <input type="range" id="maxChar" min="5" max="15">
+            </div>
+            <div class="form-field">
+                <label for="includeChar">Include symbols</label>
+                <input type="checkbox" id="includeChar">
+            </div>
+            <button id="generatePwdBtn">Generate Passwords</button>
+            <hr>
+            <div class="pwd-container">
+                <div id="passwordOneEl" class="password highlight"></div>
+                <div id="passwordTwoEl" class="password highlight"></div>
+            </div>
+            <p id="status" role="status" class="highlight"></p>
+        </div>
+        <script src="/assets/index.js"></script>
+    </body>
+</html>
