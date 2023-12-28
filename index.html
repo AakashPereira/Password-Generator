@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class="container">
-            <h1>Generate a <span class="highlight highlight-heading">random password</span></h1>
+            <h1><span role="text">Generate a <span class="highlight highlight-heading">random password</span></span></h1>
             <p>Never use an insecure password again.</p>
             <div class="form-field">
                 <label for="maxChar">Password Length</label>
@@ -22,8 +22,8 @@
             <button id="generatePwdBtn">Generate Passwords</button>
             <hr>
             <div class="pwd-container">
-                <div id="passwordOneEl" class="password highlight"></div>
-                <div id="passwordTwoEl" class="password highlight"></div>
+                <div id="passwordOneEl" class="password highlight" tabindex="0" role="button" aria-label="Copy password one"></div>
+                <div id="passwordTwoEl" class="password highlight" tabindex="0" role="button" aria-label="Copy password one"></div>
             </div>
             <p id="status" role="status" class="highlight"></p>
         </div>
