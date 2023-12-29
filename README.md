@@ -1,4 +1,4 @@
-<kbd>![Hi, I'm Aakash](/assets/header.png)</kbd>
+<kbd>![Password Generator](/assets/header.png)</kbd>
 
 A simple random password generator with customisation functionality. Features include:
 
