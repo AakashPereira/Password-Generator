@@ -6,3 +6,5 @@
  - Generate two random passwords
  - Define password parameters including length and the ability to include characters
  - Click to copy passwords
+
+🔗 [Try Password Generator](https://aakashpereira.github.io/Password-Generator/)
