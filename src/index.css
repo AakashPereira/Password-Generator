@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Manrope';
-    src: url('/src/Manrope-Regular.ttf');
+    src: url('Manrope-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Manrope';
-    src: url('/src/Manrope-Bold.ttf');
+    src: url('Manrope-Bold.ttf');
     font-weight: bold;
 }
 
