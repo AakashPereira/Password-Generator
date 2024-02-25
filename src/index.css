@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('/src/Manrope-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('/src/Manrope-Bold.ttf');
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    background: #1C1C1C;
+    color: #D5D4D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Manrope', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+    background: #1F2937;
+    width: 470px;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: snow;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #34D399;
+}
+
+span.highlight {
+    display: block;
+}
+
+button {
+    background: #34D399;
+    color: #1C1C1C;
+    border-radius: 5px;
+    border: 0;
+    padding: 7px 14px;
+    font-size: 0.85em;
+    margin-top: 10px;
+}
+
+.form-input {
+    margin: 5px 0;
+}
+
+.pwd-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+hr {
+    border-bottom: solid 1px #2F3E53;
+    margin: 40px 0;
+}
+
+.password {
+    background: #2F3E53;
+    width: 200px;
+    padding: 7px 14px;
+    border-radius: 5px;
+    min-height: 1em;
+    text-align: center;
+}
+
+.password:hover, button:hover {
+    cursor: pointer;
+}
