@@ -7,3 +7,5 @@ A quick and easy web app that generates two random passwords based on user-selec
 * Choose password length - 5-15 characters
 * Click to copy password
 * Dynamic status messages
+
+🔗 [Generate Passwords](https://aakashpereira.github.io/Password-Generator/)
